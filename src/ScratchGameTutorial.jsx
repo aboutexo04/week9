@@ -2,13 +2,13 @@ import { useState } from "react";
 
 const steps = [
   { 
-    title: "Week 8 - Coud Magic Game",
-    description: "Today, we'll make Cloud magic game!",
+    title: "Week 9 - Make your own music-box",
+    description: "Today, we'll make music-box!",
     image: "/images/first.png"
   },
   {
     title: "Key programming concepts",
-    description: "Today, we'll cover variables, list(storage), and initialisation.",
+    description: "Today, we'll cover color-picker function, if condition, and music function.",
     image: "/images/title-page.png"
   },
   {
@@ -17,34 +17,28 @@ const steps = [
     image: "/images/seating-chart.png"
   },
   {
-    title: "Step 1: Open Scratch and remix today's start project(week8)",
-    description: "Please share the start file I provided at the studio Week8. My Stuff -> My Studio -> Week8 -> Start File",
+    title: "Step 1: Open Scratch and remix today's start project(week9)",
+    description: "Please share the start file I provided at the studio Week9. My Stuff -> My Studio -> Week8 -> Start File",
     
   },
   {
-    title: "Step 2: Check the rule of the game",
-    description: "Please check the rule of the game.",
+    title: "Step 2: Let's start coding with record sprite",
+    description: "It just rotates slowly. You can change the speed by changing the degree.",
     image: "/images/step2.png"
   },
   {
-    title: "Step 3: Let's start coding with the cat sprite",
-    description:"The can sprite is moving towards the mouse pointer. If it touches the dog, you loses 3 points. It has score and timer function.",
-    image: "/images/cat.webp" 
+    title: "Step 3: Let's start coding with the scale sprite",
+    description: "Don't' forget to use evesdrop function to extrct the exact color.",
+    image: "/images/scale.png" 
   },
   {
-    title: "Step 4: Let's code for the food sprite",
-    description:"It randomly appears on the screen. When the cat touches the food, the food disappears and the score increases by 1. If the costume is syrup, it will be added to the storage.",
-    image: "/images/food.webp"
+    title: "Step 4: ",
+    description: "You can move white dots to change your music, or you can add additional costumes to the record sprite.",
+    image: "/images/step4.png"
   },
   {
-    title: "Step 5: Let's code for the cloud sprite",
-    description:"The cloud is mostly hidden. When there's a syrup in the storage, and you press the space key, the cloud will appear and the syrup will be removed from the storage.",
-    image: "/images/cloud.png"
-  },
-  {
-    title: "Step 6: Test your game and share to the studio week8",
-    description: "Dont forget to add your project to the studio week8.",
-    image: "/images/step6.png"
+    title: "Step 5: Test your game and share to the studio week9",
+    description: "Dont forget to add your project to the studio week9.",
   },
   
 ];
